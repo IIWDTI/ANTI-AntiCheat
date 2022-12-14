@@ -3,11 +3,13 @@ sc stop vgc
 sc stop BEService
 sc stop xhunter1
 sc stop EasyAntiCheat_EOS
+sc stop atvi-randgrid_sr
 net stop vgk
 net stop vgc
 net stop BEService
 net stop xhunter1
 net stop EasyAntiCheat_EOS
+net stop atvi-randgrid_sr
 TASKKILL /F /IM installer.exe /T
 TASKKILL /F /IM log-uploader.exe /T
 TASKKILL /F /IM vgc.exe /T
