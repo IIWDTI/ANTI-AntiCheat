@@ -15,3 +15,5 @@ Removes the following Anti-Cheat systems:
 * Vanguard
 
 * BattlEye
+
+Also cleanup Cheat-Engine values from registry.
