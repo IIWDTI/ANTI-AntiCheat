@@ -16,4 +16,4 @@ Removes the following Anti-Cheat systems:
 
 * BattlEye
 
-Also cleanup Cheat-Engine values from registry.
+Also cleanup Cheat-Engine, FLiNGTrainer values from registry.
