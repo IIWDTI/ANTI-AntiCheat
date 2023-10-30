@@ -55,19 +55,30 @@ REG DELETE "HKLM\SOFTWARE\vgk" /f
 REG DELETE "HKLM\SOFTWARE\WOW6432Node\EasyAntiCheat_EOS" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\EasyAntiCheat_EOS" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\EasyAntiCheat_EOS" /f
+REG DELETE "HKLM\SYSTEM\ControlSet001\Services\EasyAntiCheat" /f
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\EasyAntiCheat" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\atvi-randgrid_sr" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\atvi-randgrid_sr" /f
+REG DELETE "HKLM\SOFTWARE\WOW6432Node\EasyAntiCheat" /f
+REG DELETE "HKLM\SOFTWARE\WOW6432Node\Valve\Steam\Apps\rust_EAC_EOS" /f
 
+rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat"
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat_EOS"
 rmdir /S /Q "C:\Program Files\Riot Vanguard"
 rmdir /S /Q "C:\Program Files (x86)\Common Files\BattlEye"
+rmdir /S /Q "C:\Users\%username%\AppData\Local\BattlEye"
 rmdir /S /Q "C:\Program Files\Common Files\PUBG"
 rmdir /S /Q "C:\Program Files\Common Files\Wellbia.com"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\WELLBIA"
 rmdir /S /Q "C:\Users\%username%\AppData\LocalLow\Facepunch Studios LTD"
 rmdir /S /Q "C:\Users\%username%\AppData\Roaming\EasyAntiCheat"
+rmdir /S /Q "C:\Users\%username%\AppData\Local\GameAnalytics"
+rmdir /S /Q "C:\Users\%username%\AppData\LocalLow\Facepunch"
+rmdir /S /Q "C:\Users\%username%\AppData\Local\DayZ\BattlEye"
+rmdir /S /Q "C:\Users\%username%\AppData\Local\FLiNGTrainer"
 
 del /F /Q "C:\Windows\xhunter1.sys"
 del /F /Q "C:\Windows\xhunters.log"
+del /F /Q "C:\Windows\SysWOW64\EasyAntiCheat.exe"
 
 pause
