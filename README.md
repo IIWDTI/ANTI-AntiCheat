@@ -19,7 +19,9 @@ Removes the following Anti-Cheat systems:
 Also cleanup Cheat-Engine, FLiNGTrainer values from registry.
 
 
+
 Good tools for finding Kernal drivers and other similar files:
+
 
 DriverView: https://www.nirsoft.net/utils/driverview.html (View loaded drivers)
 
