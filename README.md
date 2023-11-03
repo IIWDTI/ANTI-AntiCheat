@@ -16,6 +16,10 @@ Removes the following Anti-Cheat systems:
 
 * BattlEye
 
+* Anti-Cheat Expert（ACE-Global）
+
+* EA Anti Cheat
+
 Also cleanup Cheat-Engine, FLiNGTrainer values from registry.
 
 
