@@ -4,12 +4,16 @@ sc stop BEService
 sc stop xhunter1
 sc stop EasyAntiCheat_EOS
 sc stop atvi-randgrid_sr
+sc stop EAAntiCheat
+sc stop EAAntiCheatService
 net stop vgk
 net stop vgc
 net stop BEService
 net stop xhunter1
 net stop EasyAntiCheat_EOS
 net stop atvi-randgrid_sr
+net stop EAAntiCheat
+net stop EAAntiCheatService
 TASKKILL /F /IM installer.exe /T
 TASKKILL /F /IM log-uploader.exe /T
 TASKKILL /F /IM vgc.exe /T
@@ -32,6 +36,8 @@ TASKKILL /F /IM EasyAntiCheat_EOS.exe /T
 TASKKILL /F /IM cod.exe /T
 TASKKILL /F /IM sp22-cod.exe /T
 TASKKILL /F /IM rust.exe /T
+TASKKILL /F /IM EAAntiCheat.Installer.exe /T
+TASKKILL /F /IM EAAntiCheat.GameService.exe /T
 
 REG DELETE "HKLM\SOFTWARE\Classes\.CETRAINER" /f
 REG DELETE "HKLM\SOFTWARE\Classes\.CT" /f
@@ -61,6 +67,10 @@ REG DELETE "HKLM\SYSTEM\ControlSet001\Services\atvi-randgrid_sr" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\atvi-randgrid_sr" /f
 REG DELETE "HKLM\SOFTWARE\WOW6432Node\EasyAntiCheat" /f
 REG DELETE "HKLM\SOFTWARE\WOW6432Node\Valve\Steam\Apps\rust_EAC_EOS" /f
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\EAAntiCheat" /f
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\EAAntiCheatService" /f
+REG DELETE "HKLM\SYSTEM\ControlSet001\Services\EAAntiCheat" /f
+REG DELETE "HKLM\SYSTEM\ControlSet001\Services\EAAntiCheatService" /f
 
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat"
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat_EOS"
@@ -76,9 +86,12 @@ rmdir /S /Q "C:\Users\%username%\AppData\Local\GameAnalytics"
 rmdir /S /Q "C:\Users\%username%\AppData\LocalLow\Facepunch"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\DayZ\BattlEye"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\FLiNGTrainer"
+rmdir /S /Q "C:\Program Files\EA\AC"
 
 del /F /Q "C:\Windows\xhunter1.sys"
 del /F /Q "C:\Windows\xhunters.log"
 del /F /Q "C:\Windows\SysWOW64\EasyAntiCheat.exe"
+del /F /Q "C:\Windows\System32\drivers\ACE-BASE.sys"
+del /F /Q "C:\Windows\system32\drivers\eaanticheat.sys"
 
 pause
