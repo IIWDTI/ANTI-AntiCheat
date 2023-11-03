@@ -89,6 +89,7 @@ rmdir /S /Q "C:\Users\%username%\AppData\Local\FLiNGTrainer"
 rmdir /S /Q "C:\Program Files\EA\AC"
 rmdir /S /Q "C:\ProgramData\eaanticheat"
 rmdir /S /Q "C:\Users\%username%\AppData\Roaming\EA\AC"
+rmdir /S /Q "C:\Users\%username%\AppData\Roaming\EAAntiCheat.Installer.Tool"
 
 del /F /Q "C:\Windows\xhunter1.sys"
 del /F /Q "C:\Windows\xhunters.log"
