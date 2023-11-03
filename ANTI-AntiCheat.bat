@@ -87,6 +87,7 @@ rmdir /S /Q "C:\Users\%username%\AppData\LocalLow\Facepunch"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\DayZ\BattlEye"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\FLiNGTrainer"
 rmdir /S /Q "C:\Program Files\EA\AC"
+rmdir /S /Q "C:\ProgramData\eaanticheat"
 
 del /F /Q "C:\Windows\xhunter1.sys"
 del /F /Q "C:\Windows\xhunters.log"
