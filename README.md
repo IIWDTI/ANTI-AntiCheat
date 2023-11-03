@@ -30,3 +30,5 @@ ServiWin: https://www.nirsoft.net/utils/serviwin.html (Information about install
 LoadedDllsView: https://www.nirsoft.net/utils/loaded_dll_view.html (View currently loaded Dlls)
 
 RegDllView: https://www.nirsoft.net/utils/registered_dll_view.html (View registered Dlls)
+
+run "driverquery /V" in cmd (another way of viewing loaded drivers)
