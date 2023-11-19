@@ -20,6 +20,8 @@ Removes the following Anti-Cheat systems:
 
 * EA Anti Cheat
 
+* Punkbuster
+
 Also cleanup Cheat-Engine, FLiNGTrainer values from registry.
 
 
