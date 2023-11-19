@@ -63,7 +63,11 @@ Anyway hope this script will help some people.
 # Software that I've heard rumours about giving a ban:
 
 Razer Synapse 2 or 3 (Had this installed when I was banned)
+
 RTSS Rivatuner Statistics Server (Had this installed when I was banned)
+
 VMware Software (Had this installed when I was banned)
+
 Intelligent standby list cleaner (ISLC) (used for modifying timer resolution in windows, supposed to improve performance)
+
 Editing configuration files for games (PUBG have rules against modifying configuration files manually)
