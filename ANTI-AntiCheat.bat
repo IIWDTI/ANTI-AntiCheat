@@ -6,6 +6,8 @@ sc stop EasyAntiCheat_EOS
 sc stop atvi-randgrid_sr
 sc stop EAAntiCheat
 sc stop EAAntiCheatService
+sc stop PnkBstrA
+sc stop PnkBstrB
 net stop vgk
 net stop vgc
 net stop BEService
@@ -14,6 +16,8 @@ net stop EasyAntiCheat_EOS
 net stop atvi-randgrid_sr
 net stop EAAntiCheat
 net stop EAAntiCheatService
+net stop PnkBstrA
+net stop PnkBstrB
 TASKKILL /F /IM installer.exe /T
 TASKKILL /F /IM log-uploader.exe /T
 TASKKILL /F /IM vgc.exe /T
@@ -38,6 +42,8 @@ TASKKILL /F /IM sp22-cod.exe /T
 TASKKILL /F /IM rust.exe /T
 TASKKILL /F /IM EAAntiCheat.Installer.exe /T
 TASKKILL /F /IM EAAntiCheat.GameService.exe /T
+TASKKILL /F /IM PnkBstrA.exe /T
+TASKKILL /F /IM PnkBstrB.exe /T
 
 REG DELETE "HKLM\SOFTWARE\Classes\.CETRAINER" /f
 REG DELETE "HKLM\SOFTWARE\Classes\.CT" /f
@@ -71,6 +77,10 @@ REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\EAAntiCheat" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\EAAntiCheatService" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\EAAntiCheat" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\EAAntiCheatService" /f
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\PnkBstrA" /f
+REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\PnkBstrB" /f
+REG DELETE "HKLM\SYSTEM\ControlSet001\Services\PnkBstrA" /f
+REG DELETE "HKLM\SYSTEM\ControlSet001\Services\PnkBstrB" /f
 
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat"
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat_EOS"
@@ -96,5 +106,8 @@ del /F /Q "C:\Windows\xhunters.log"
 del /F /Q "C:\Windows\SysWOW64\EasyAntiCheat.exe"
 del /F /Q "C:\Windows\System32\drivers\ACE-BASE.sys"
 del /F /Q "C:\Windows\system32\drivers\eaanticheat.sys"
+del /F /Q "C:\Windows\SysWOW64\PnkBstrB.exe"
+del /F /Q "C:\Windows\SysWOW64\PnkBstrA.exe"
+del /F /Q "C:\Windows\SysWOW64\pbsvc.exe"
 
 pause
