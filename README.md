@@ -46,7 +46,6 @@ Someone asked me why, here is my reason.
 One day in November 2022 when I logged on my steam account, I was greated with a message that I was banned in PUBG permanent, I was very supprised, but I was sure it must have been a mistake since I don't support cheating in any online games.
 
 I thought, this could be easy fixed by contacting their support...... I was wrong though. After countless talks back and forth with different support people, and departments. Their answer was the same robotic response, that I broke their rules of conduct, and they 
-
 could not tell me why I was banned. 
 
 I read the rules many times, and could not find any reason why exactly I was banned, maybe I was running some weird software they didn't allow, or maybe it was unicorn dancing around in my windows installation, who knows.
