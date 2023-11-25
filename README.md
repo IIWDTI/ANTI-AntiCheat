@@ -6,7 +6,7 @@ Remember to run the script as admin.
 
 Removes the following Anti-Cheat systems:
 
-* WELLBIA aka xhunter1
+* WELLBIA aka xhunter1 aka XIGNCODE3
 
 * EasyAntiCheat
 
