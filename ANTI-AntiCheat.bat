@@ -81,6 +81,9 @@ REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\PnkBstrA" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\PnkBstrB" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\PnkBstrA" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\PnkBstrB" /f
+REG DELETE "HKLM\SOFTWARE\WOW6432Node\Valve\Steam\Apps\1938090" /v "Randgrid_install" /f
+REG DELETE "HKLM\SOFTWARE\WOW6432Node\Valve\Steam\Apps\1938090" /v "Randgrid_sdset" /f
+REG DELETE "HKLM\SOFTWARE\WOW6432Node\Valve\Steam\Apps\1938090" /v "Randgrid_uninstall" /f
 
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat"
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat_EOS"
@@ -102,6 +105,7 @@ rmdir /S /Q "C:\Users\%username%\AppData\Roaming\EA\AC"
 rmdir /S /Q "C:\Users\%username%\AppData\Roaming\EAAntiCheat.Installer.Tool"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\Activision\bootstrapper"
 rmdir /S /Q "C:\Users\%username%\AppData\Local\Activision\Call of Duty"
+rmdir /S /Q "C:\Users\%username%\AppData\Roaming\Battle.net\Telemetry"
 
 del /F /Q "C:\Windows\xhunter1.sys"
 del /F /Q "C:\Windows\xhunters.log"
