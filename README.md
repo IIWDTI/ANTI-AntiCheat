@@ -60,7 +60,7 @@ So this is my story, I was marked with a permanent game ban on my 20 year old st
 
 Anyway hope this script will help some people.
 
-# Software that I've heard rumours about giving a ban:
+# Software that I've heard rumours about giving a ban, or other observations with anticheat:
 
 Razer Synapse 2 or 3 (Had this installed when I was banned)
 
@@ -71,3 +71,5 @@ VMware Software (Had this installed when I was banned)
 Intelligent standby list cleaner (ISLC) (used for modifying timer resolution in windows, supposed to improve performance)
 
 Editing configuration files for games (PUBG have rules against modifying configuration files manually)
+
+Vanguard block my ASUS Sonic driver from running while installed.
