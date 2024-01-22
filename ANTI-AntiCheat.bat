@@ -115,5 +115,6 @@ del /F /Q "C:\Windows\system32\drivers\eaanticheat.sys"
 del /F /Q "C:\Windows\SysWOW64\PnkBstrB.exe"
 del /F /Q "C:\Windows\SysWOW64\PnkBstrA.exe"
 del /F /Q "C:\Windows\SysWOW64\pbsvc.exe"
+del /F /Q "C:\Windows\System32\eac_usermode_*.dll"
 
 pause
