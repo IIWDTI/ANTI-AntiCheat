@@ -129,7 +129,6 @@ REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\AntiCheatExpert Protection" /
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\AntiCheatExpert Service" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\ACE-SSC-DRV64" /f
 REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\NEProtect" /f
-REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\HWiNFO_190" /f
 
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\ACE-BASE" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\ace-game" /f
@@ -138,15 +137,6 @@ REG DELETE "HKLM\SYSTEM\ControlSet001\Services\AntiCheatExpert Protection" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\AntiCheatExpert Service" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\ACE-SSC-DRV64" /f
 REG DELETE "HKLM\SYSTEM\ControlSet001\Services\NEProtect" /f
-REG DELETE "HKLM\SYSTEM\ControlSet001\Services\HWiNFO_190" /f
-
-REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\rspLLL" /f
-REG DELETE "HKLM\SYSTEM\ControlSet001\Services\rspLLL" /f
-
-REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\PROCMON23" /f
-REG DELETE "HKLM\SYSTEM\ControlSet001\Services\PROCMON23" /f
-REG DELETE "HKLM\SYSTEM\CurrentControlSet\Services\PROCMON24" /f
-REG DELETE "HKLM\SYSTEM\ControlSet001\Services\PROCMON24" /f
 
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat"
 rmdir /S /Q "C:\Program Files (x86)\EasyAntiCheat_EOS"
